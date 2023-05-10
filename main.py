@@ -7,7 +7,7 @@ chosen_word = random.choice(word_list)
 print(hangman_art.logo)
 
 # Just for testing ...
-print(f"The word is {chosen_word}")
+# print(f"The word is {chosen_word}")
 
 display = ["_" for _ in chosen_word]
 print(display)
@@ -42,8 +42,6 @@ while keep_playing:
             print("You lose")
             keep_playing = False
 
-    print(hangman_art.stages[lives])
-    print(display)
 
 
 
